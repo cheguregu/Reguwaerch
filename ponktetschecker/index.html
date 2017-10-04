@@ -24,7 +24,7 @@
         //    *  
         // 
         //    *
-        if (eins && zwei && drei && fuenf && neun){
+        if (eins && zwei && drei && !vier && fuenf && !sechs && !sieben && !acht && neun){
           result = "Drache -> 17";
         }
         //- Vercherta Drache: 34pt
@@ -34,7 +34,7 @@
         //    *  
         //  *   *
         //    *
-        else if (eins &&  fuenf && sieben && acht && neun){
+        else if (eins && !zwei && !drei && !vier && fuenf && !sechs && sieben && acht && neun){
           result = "Vercherta Drache -> 34";
         }
         //- Linggi Gschweifti Chlammera: 15 pt
@@ -44,7 +44,7 @@
         //    * 
         //  *   
         //    * 
-        else if (eins && zwei &&  fuenf && sieben && neun){
+        else if (eins && zwei && !drei && !vier && fuenf && !sechs && sieben && !acht && neun){
           result = "Linggi Gschweifti Chlammera -> 15";
         }
         //- Rächti Gschweifti Chlammera: 15 pt
@@ -54,7 +54,7 @@
         //    *
         //      *
         //    *
-        else if (eins && drei && fuenf && acht && neun){
+        else if (eins && !zwei && drei && !vier && fuenf && !sechs && !sieben && acht && neun){
           result = "R&auml;chti Gschweifti Chlammera -> 15";
         }
         //- Chranz: 25pt
@@ -64,7 +64,7 @@
         //*       *
         //  *   *
         //    *
-        else if (eins && zwei && drei && vier && sechs && sieben && acht && neun){
+        else if (eins && zwei && drei && vier && !fuenf && sechs && sieben && acht && neun){
           result = "Chranz -> 25";
         }
         //- Babeli: 30pt
@@ -84,7 +84,7 @@
         //    *
         //
         //    *
-        else if (eins &&  fuenf && neun){
+        else if (eins && !zwei && !drei && !vier && fuenf && !sechs && !sieben && !acht && neun){
           result = "Grossi Strass -> 10";
         }
         //- Chlini linggi Strass: 5pt
@@ -94,7 +94,7 @@
         //
         //  * 
         //
-        else if (zwei &&  sieben){
+        else if (!eins && zwei && !drei && !vier && !fuenf && !sechs && sieben && !acht && neun){
           result = "Chlini linggi Strass -> 5";
         }
         //- Chlini rächti Strass: 5pt
@@ -103,7 +103,7 @@
         //      * 
         //
         //      * 
-        else if (drei &&  acht){
+        else if (!eins && !zwei && drei && !vier && !fuenf && !sechs && !sieben && acht && !neun){
           result = "Chlini r&auml;chti Strass -> 5";
         }
         //- Pfüû: 15pt
@@ -113,7 +113,7 @@
         //*   *   *
         //  
         //    * 
-        else if (eins && zwei && drei && vier && fuenf && sechs && neun){
+        else if (eins && zwei && drei && vier && fuenf && sechs && !sieben && !acht && neun){
           result = "Pf&uuml;&ucirc; -> 15";
         }
         //- Vercherta Pfüû: 12pt
@@ -123,7 +123,7 @@
         //*   *   *
         //  *   *  
         //    *
-        else if (eins && vier && fuenf && sechs && sieben && acht && neun){
+        else if (eins && !zwei && !drei && vier && fuenf && sechs && sieben && acht && neun){
           result = "Vercherta Pf&uuml;&ucirc; -> 15";
         }    
        
