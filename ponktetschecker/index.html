@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <title>Cheguregu Ponktetschecker</title>
+    <script>
+      function calc(cb) {
+        var eins = document.getElementById('1').checked
+        var zwei = document.getElementById('2').checked
+        var drei = document.getElementById('3').checked
+        var vier = document.getElementById('4').checked
+        var fuenf = document.getElementById('5').checked
+        var sechs = document.getElementById('6').checked
+        var sieben = document.getElementById('7').checked
+        var acht = document.getElementById('8').checked
+        var neun = document.getElementById('9').checked
+        var result = ""
+        
+        //Fallmuster:
+        //-----------
+        //
+        //- Drache: 17pt
+        //
+        //    *
+        //  *   *
+        //    *  
+        // 
+        //    *
+        if (eins && zwei && drei && !vier && fuenf && !sechs && !sieben && !acht && neun){
+          result = "Drache -> 17";
+        }
+        //- Vercherta Drache: 34pt
+        //
+        //    *
+        //
+        //    *  
+        //  *   *
+        //    *
+        else if (eins && !zwei && !drei && !vier && fuenf && !sechs && sieben && acht && neun){
+          result = "Vercherta Drache -> 34";
+        }
+        //- Linggi Gschweifti Chlammera: 15 pt
+        //
+        //    * 
+        //  *   
+        //    * 
+        //  *   
+        //    * 
+        else if (eins && zwei && !drei && !vier && fuenf && !sechs && sieben && !acht && neun){
+          result = "Linggi Gschweifti Chlammera -> 15";
+        }
+        //- Rächti Gschweifti Chlammera: 15 pt
+        //
+        //    *
+        //      *
+        //    *
+        //      *
+        //    *
+        else if (eins && !zwei && drei && !vier && fuenf && !sechs && !sieben && acht && neun){
+          result = "R&auml;chti Gschweifti Chlammera -> 15";
+        }
+        //- Chranz: 25pt
+        //
+        //    *
+        //  *   *
+        //*       *
+        //  *   *
+        //    *
+        else if (eins && zwei && drei && vier && !fuenf && sechs && sieben && acht && neun){
+          result = "Chranz -> 25";
+        }
+        //- Babeli: 30pt
+        //
+        //    *    
+        //  *   *  
+        //*   *   *
+        //  *   *  
+        //    *    
+        else if (eins && zwei && drei && vier && fuenf && sechs && sieben && acht && neun){
+          result = "Chranz -> 25";
+        } 
+        //- Grossi Strass: 10pt
+        //
+        //    *
+        // 
+        //    *
+        //
+        //    *
+        else if (eins && !zwei && !drei && !vier && fuenf && !sechs && !sieben && !acht && neun){
+          result = "Grossi Strass -> 10";
+        }
+        //- Chlini linggi Strass: 5pt
+        //
+        //    
+        //  * 
+        //
+        //  * 
+        //
+        else if (!eins && zwei && !drei && !vier && !fuenf && !sechs && sieben && !acht && neun){
+          result = "Chlini linggi Strass -> 5";
+        }
+        //- Chlini rächti Strass: 5pt
+        //
+        //    
+        //      * 
+        //
+        //      * 
+        else if (!eins && !zwei && drei && !vier && !fuenf && !sechs && !sieben && acht && !neun){
+          result = "Chlini r&auml;chti Strass -> 5";
+        }
+        //- Pfüû: 15pt
+        //
+        //    *    
+        //  *   *  
+        //*   *   *
+        //  
+        //    * 
+        else if (eins && zwei && drei && vier && fuenf && sechs && !sieben && !acht && neun){
+          result = "Pf&uuml;&ucirc; -> 15";
+        }
+        //- Vercherta Pfüû: 12pt
+        //
+        //    *    
+        //
+        //*   *   *
+        //  *   *  
+        //    *
+        else if (eins && !zwei && !drei && vier && fuenf && sechs && sieben && acht && neun){
+          result = "Vercherta Pf&uuml;&ucirc; -> 15";
+        }    
+       
+       // Keine Figur
+       else {
+        if (eins) {
+          result ++
+        }
+        if (zwei) {
+          result ++
+        }
+        if (drei) {
+          result ++
+          }
+        if (vier) {
+          result ++
+        }
+        if (fuenf) {
+          result ++
+        }
+        if (sechs) {
+          result ++
+        }
+        if (sieben) {
+          result ++
+        }
+        if (acht) {
+          result ++
+        }
+        if (neun) {
+          result ++
+        }
+       }
+      document.getElementById("result").innerHTML = "You scored: " + result + " p&ouml;nkt!";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Cheguregu Ponktetschecker</h1>
+    <table>
+      <tr>
+        <td></td><td></td><td><input type="checkbox" id="1" onchange="calc(this)"></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td><input type="checkbox" id="2" onchange="calc(this)"></td><td></td><td><input type="checkbox" id="3" onchange="calc(this)"></td><td></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="4" onchange="calc(this)"></td><td></td><td><input type="checkbox" id="5" onchange="calc(this)"></td><td></td><td><input type="checkbox" id="6" onchange="calc(this)"></td>
+      </tr>
+       <tr>
+        <td></td><td><input type="checkbox" id="7" onchange="calc(this)"></td><td></td><td><input type="checkbox" id="8" onchange="calc(this)"></td><td></td>
+      </tr>
+       <tr>
+        <td></td><td></td><td><input type="checkbox" id="9" onchange="calc(this)"></td><td></td><td></td>
+      </tr>
+    </table>  
+    <p id="result"></p>
+  </body>
+</html>
