@@ -65,7 +65,7 @@ static void die(const char *message)
 }
 
 /* Turn a binary string into an integer */
-static uint16_t binstr2int(char *str)
+static uint16_t binstr_to_int(char *str)
 {
     uint16_t i = 0;
 
@@ -94,7 +94,7 @@ static uint16_t count_set_bits(uint16_t in)
 /* Check incoming pattern for matches return figumber or -1 if no match*/
 static int check_figures(uint16_t in)
 {
-    for(int i=1; i<(N_FIGS); i++) {
+    for(int i=0; i<(N_FIGS); i++) {
         if(in == figures[i].pattern) {
             return figures[i].fignumber;
         }
@@ -103,6 +103,7 @@ static int check_figures(uint16_t in)
     return -1;
 }
 
+/* Main */
 int main(int argc, char **argv)
 {
     uint16_t input=0;
@@ -112,11 +113,9 @@ int main(int argc, char **argv)
         die("Exactly one argument required. Binary representation of field, see code.");
     }
 
-    input = binstr2int(argv[1]);
+    input = binstr_to_int(argv[1]);
 
-    printf("[DEBUG]: Input: %d\n", input); // Debug print
-
-    if((n=check_figures(input))>0) {
+    if((n=check_figures(input))>=0) {
         printf("Figur: %s\nPunkte: %d\n", figures[n].message, figures[n].points);
     } else {
         printf("Keine Figur.\nPunkte: %d\n", count_set_bits(input));
