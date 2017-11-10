@@ -7,7 +7,7 @@ HFILES=$(shell find . -name '*.h')
 STYLE=astyle --style=1tbs
 RUN=valgrind --leak-check=full
 DEBUG=gdb --args
-ARGS=
+ARGS=001000010
 
 all: build
 
