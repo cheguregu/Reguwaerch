@@ -46,6 +46,22 @@ Gewonnen hat, wer Punktelandung auf Null schafft. Wenn ein Spieler Null untersch
       *
     *
 ```
+- M: 14 pt
+```
+  *   *
+*   *   *
+```
+- W: 14 pt
+```
+*   *   *
+  *   *
+```
+- Blüemli: 13 pt
+```  
+  *   *  
+*   *   *
+  *   *    
+```
 - Chranz: 25pt
 ```
     *
