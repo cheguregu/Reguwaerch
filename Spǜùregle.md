@@ -117,7 +117,7 @@ Gewonnen hat, wer Punktelandung auf Null schafft. Wenn ein Spieler Null untersch
   *   *  
     * 
 ```
-- De Greüsù (Form vamena Anker!): 100pt
+- De Grüsù (Form vamena Anker!): 100pt
 ```
     *    
 
