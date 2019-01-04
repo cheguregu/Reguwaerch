@@ -13,7 +13,7 @@ Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungü
  - Auf 2 Bahnen gespielt: Im selben Wurf auf beiden Bahnen gleiches oder Spiegelverkehrtes Fallmuster -> Geworfenes Bild mal 2
 
  - Kür: Der korrekte unten oder oben gedrehte kegelschritt kombiniert in synchroner Ausführung kann sonderpunkte geben.
-
+ - Beliebige Punktzahl: Macht der Werfer eine Ansage der Figur, mit erfolgreicher Kür und der ootimalen Geschwindigkeit, darf er die Anzahl Punkte wählen.
 
 # Fallmuster:
 
