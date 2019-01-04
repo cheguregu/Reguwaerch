@@ -1,4 +1,4 @@
-#Chegle Spǜùregle:
+# Chegle Spǜùregle:
 
 Von 100 Punkten ausgehend.
 Pro Runde ein Wurf pro Spieler. Es werden die Anzahl gefallenen Kegel als Punkte abgezählt. Ausnahme sind spezielle Fallmuster. Siehe spezielle Punktezahl.
@@ -7,7 +7,9 @@ Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungü
 
 ## Sonderregel:
  - Zu schnell: Punktezahl der gefallenen Kegel/Muster mal minus 2
-
+ 
+ - Zu langsam: Erreicht die Kugel  die Geschwindigkeit von 7.5 km/h nicht, werden nur die halben Punkte (math floor) gezählt
+ - Optimal: Bei der exakten Geschwindigkeit von 18.0 km/h zählen die geworfenen Punkte doppelt.
  - Auf 2 Bahnen gespielt: Im selben Wurf auf beiden Bahnen gleiches oder Spiegelverkehrtes Fallmuster -> Geworfenes Bild mal 2
 
  - Kür: Der korrekte unten oder oben gedrehte kegelschritt kombiniert in synchroner Ausführung kann sonderpunkte geben.
@@ -126,3 +128,24 @@ Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungü
   *   *  
     * 
 ```
+
+- 3-egg rächts: 15pt
+
+
+- 3-egg links 15pt
+
+- Golffahne rächts 10pt
+
+- Golffahne links 10pt
+
+- Golffahne verchehrt rächts 10pt
+
+- Golffahne verchehrt links 10pt
+
+- Chlyner aus 13pt
+
+- Grösser aus 13pt
+
+- YB je 100 pt
+
+- Das Boot / Härz 15pt
