@@ -9,7 +9,7 @@ Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungü
  - Zu schnell: Punktezahl der gefallenen Kegel/Muster mal minus 2
  
  - Zu langsam: Erreicht die Kugel  die Geschwindigkeit von 7.5 km/h nicht, werden nur die halben Punkte (math floor) gezählt
- - Optimal: Bei der exakten Geschwindigkeit von 18.0 km/h zählen die geworfenen Punkte doppelt.
+ - Optimal: Bei der maximal erlaubten Geschwindigkeit zählen die geworfenen Punkte  doppelt.
  - Auf 2 Bahnen gespielt: Im selben Wurf auf beiden Bahnen gleiches oder Spiegelverkehrtes Fallmuster -> Geworfenes Bild mal 2
 
  - Kür: Der korrekte unten oder oben gedrehte kegelschritt kombiniert in synchroner Ausführung kann sonderpunkte geben.
