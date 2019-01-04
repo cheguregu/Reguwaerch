@@ -3,6 +3,7 @@
 Von 100 Punkten ausgehend.
 Pro Runde ein Wurf pro Spieler. Es werden die Anzahl gefallenen Kegel als Punkte abgezählt. Ausnahme sind spezielle Fallmuster. Siehe spezielle Punktezahl.
 Gewonnen hat, wer Punktelandung auf Null schafft. Wenn ein Spieler Null unterschreitet, so werden die Punkte, welche unter Null sind positiv addiert.
+Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungültig und wird mit Null Punkten gewertet.
 
 ## Sonderregel:
  - Zu schnell: Punktezahl der gefallenen Kegel/Muster mal minus 2
