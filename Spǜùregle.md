@@ -5,15 +5,13 @@ Pro Runde ein Wurf pro Spieler. Es werden die Anzahl gefallenen Kegel als Punkte
 Gewonnen hat, wer Punktelandung auf Null schafft. Wenn ein Spieler Null unterschreitet, so werden die Punkte, welche unter Null sind positiv addiert.
 Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungültig und wird mit Null Punkten gewertet.
 
-## Sonderregel:
+## Sonderregeln:
  - Zu schnell: Punktezahl der gefallenen Kegel/Muster mal minus 2
- 
- - Zu langsam: Erreicht die Kugel  die Geschwindigkeit von 7.5 km/h nicht, werden nur die halben Punkte (math floor) gezählt
- - Optimal: Bei der maximal erlaubten Geschwindigkeit zählen die geworfenen Punkte  doppelt.
+ - Zu langsam: Erreicht die Kugel die Geschwindigkeit von 7.5 km/h nicht, werden nur die halben Punkte (auf die nächste ganze Zahl abgerundet) gezählt.
+ - Optimale Geschwindgkeit: Ein Wurf mit der maximal erlaubten Geschwindigkeit (bspw. Mappamondo 18.0 km/h) zählt doppelt.
  - Auf 2 Bahnen gespielt: Im selben Wurf auf beiden Bahnen gleiches oder Spiegelverkehrtes Fallmuster -> Geworfenes Bild mal 2
-
- - Kür: Der korrekte unten oder oben gedrehte kegelschritt kombiniert in synchroner Ausführung kann sonderpunkte geben.
- - Beliebige Punktzahl: Macht der Werfer eine Ansage der Figur, mit erfolgreicher Kür und der ootimalen Geschwindigkeit, darf er die Anzahl Punkte wählen.
+ - Kür: Der korrekte unten oder oben gedrehte Kegelschritt kombiniert in synchroner Ausführung kann Sonderpunkte geben.
+ - Beliebige Punktzahl: Macht der Werfer eine Ansage der Figur, mit erfolgreicher Kür und der optimalen Geschwindigkeit, darf er die Anzahl Punkte wählen.
 
 # Fallmuster:
 
@@ -128,24 +126,83 @@ Ein Wurf, welcher vor der Berührung eines Kegels die Bande touchiert, ist ungü
   *   *  
     * 
 ```
-
 - 3-egg rächts: 15pt
+```
+    *    
+      *  
+    *   *
+      *  
+    *  
+```
+- 3-egg links: 15pt
+```
+    *    
+  * 
+*   *
+  * 
+    *    
+ ```
+- Golffahne rächts: 10pt
+```
+    *    
+      *  
+    *
+  
+    *     
+ ```
+- Golffahne links: 10pt
+```
+    *    
+  *  
+    *
+  
+    *    
+ ```
+- Golffahne verchehrt rächts: 10pt
+```
+    *    
 
+    *
+      *  
+    *    
+ ```
+- Golffahne verchehrt links: 10pt
+```
+    *    
 
-- 3-egg links 15pt
-
-- Golffahne rächts 10pt
-
-- Golffahne links 10pt
-
-- Golffahne verchehrt rächts 10pt
-
-- Golffahne verchehrt links 10pt
-
-- Chlyner aus 13pt
-
-- Grösser aus 13pt
-
-- YB je 100 pt
-
-- Das Boot / Härz 15pt
+    *
+  * 
+    *    
+ ```
+- Chlyner aus: 13pt
+```
+    *    
+  *
+*
+  * 
+    *    
+ ```
+- Grösser aus: 13pt
+```
+    *    
+      *  
+        *
+      *  
+    *    
+ ```
+- YB (beide Spieler synchron linke Bahn Y rechte Bahn B) je 100: pt
+```
+              *
+  *   *          *
+    *         *
+                 *
+    *         *
+ ```
+- Das Boot / Härz: 15pt
+```
+        
+  *   *  
+*   *   *
+  *   *  
+    *    
+ ```
